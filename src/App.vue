@@ -22,5 +22,13 @@ import Contato from './components/Contato.vue'
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 </style>

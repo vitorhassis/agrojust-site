@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#fdf9e3ab] pt-20 px-4 sm:px-6 lg:px-20">
+      <div class="bg-[#fdf9e3ab] pt-20 px-4 sm:px-6 lg:px-20" id="atuacao">
     <div class="flex flex-col items-center justify-center text-center">
     <span
       class="bg-amber-600 text-white 0 rounded-full px-3 py-1.5 mb-4 shadow-lg font-medium" data-aos="fade-up" data-aos-duration="1000"
@@ -59,7 +59,7 @@
     <div class="max-w-2xl shadow-2xl bg-white rounded-lg" data-aos="fade-left" data-aos-duration="2000">
       <div>
         <img
-          src="/src/assets/ex2services.jpg"
+          src="/src/assets/imgGado.jpg"
           class="w-full h-[300px] object-cover rounded-t-lg"
           alt="imagem teste"
         />
@@ -92,4 +92,5 @@
       </div>
     </div>
   </section>
+
 </template>

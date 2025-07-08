@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col bg-[#1C1C1C]">
+  <div class="flex flex-col bg-[#1C1C1C]" id="contato">
     <div
   class="flex flex-col lg:flex-row text-white justify-center mt-[70px] mb-[70px] w-full px-4 sm:px-6 lg:px-40 gap-y-10 lg:gap-x-16 2xl:gap-x-[200px]"
 >

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "vue": "^3.5.17"
+    "vue": "^3.5.17",
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",

@@ -37,14 +37,15 @@
 
       <div class="mt-14 flex flex-col gap-3 sm:flex-col">
         <button
+        @click="$scrollTo('#sobre', 800)"
           class="rounded-full px-10 py-2 text-white bg-emerald-600 transform duration-200 hover:bg-green-900 hover:scale-105"
         >
-          Conheça Nossa História
+        Conheça Nossa História
         </button>
         <button
+        @click="$scrollTo('#atuacao', 800)"
           class="border border-white rounded-full px-10 py-2 bg-white/10 backdrop-blur-sm text-white transform duration-200 hover:bg-white hover:scale-105 hover:text-green-900"
-        >
-          ▷ Nossa Atuação
+        >▷ Nossa Atuação
         </button>
       </div>
     </div>
