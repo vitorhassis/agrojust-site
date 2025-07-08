@@ -1,7 +1,7 @@
 <template>
-  <section class="relative z-0 h-[740px]">
+  <section class="relative z-0 h-[805px]" id="heroSection">
     <video
-      class="w-full h-[740px] md:h-[680px] object-cover"
+      class="w-full h-[740px] md:h-[680px] xl:h-[805px] object-cover"
       muted
       loop
       playsinline
@@ -11,7 +11,7 @@
     ></video>
 
     <div
-      class="absolute inset-0 flex flex-col items-center justify-center md:justify-start md:pt-44"
+      class="absolute inset-0 flex flex-col items-center justify-center md:justify-start md:pt-44 xl:pt-[200px] "
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"
@@ -26,11 +26,11 @@
       </div>
 
       <div>
-        <h1 class="text-4xl md:text-6xl text-white font-light text-center">
+        <h1 class="text-4xl md:text-8xl text-white font-light text-center">
           Unindo tradição no campo <br />
           <span class="text-yellow-600 font-normal">e gestão moderna</span>
         </h1>
-        <p class="text-sm mt-5 text-center text-white">
+        <p class="text-sm mt-5 text-center text-white md:text-lg">
           Para alimentar o Brasil e o mundo com Sustentabilidade e excelência
         </p>
       </div>

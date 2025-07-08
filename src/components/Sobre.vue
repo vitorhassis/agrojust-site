@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center bg-[#d9eac540] pt-20">
+  <div class="flex flex-col items-center justify-center bg-[#d9eac540] pt-20" id="sobr">
     <span
       class="border-emerald-200 rounded-full px-3 py-1.5 bg-emerald-600 text-white mb-4 font-medium shadow-lg"
       data-aos="fade-up"
@@ -25,7 +25,7 @@
       </p>
     </div>
 
-    <div class="flex flex-col bg-[#f3f7eec3] p-8 gap-16">
+    <div class="flex flex-col bg-[#f3f7eec3] p-8 gap-16 lg:flex-row">
       <!---div da imagem-->
       <div>
         <img

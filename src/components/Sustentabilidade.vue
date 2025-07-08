@@ -1,5 +1,5 @@
 <template>
-<div class="bg-[#d9eac540] pt-20">
+<div class="bg-[#d9eac540] pt-20" id="sustentabilidade">
     <div class="flex flex-col items-center justify-center text-center">
     <span class= "border-emerald-200 rounded-full px-4 py-2 shadow-lg bg-emerald-600 text-white mb-4 font-medium" data-aos="fade-up" data-aos-duration="1000">Sustentabilidade</span>
     <div>
@@ -8,7 +8,7 @@
     </div>
 </div>
 
-<section class="flex flex-col items-center justify-center gap-8 pb-[60px] px-4 sm:px-6 lg:px-20">
+<section class="flex flex-col items-center justify-center gap-8 pb-[60px] px-4 sm:px-6 lg:px-20 lg:flex-row">
   <!---card 1-->
  <div class="bg-white text-center w-full max-w-[470px] h-[370px] lg:h-[360px] md:h-[350px] flex flex-col items-center shadow-lg rounded-lg transform duration-300 hover:scale-105">
 

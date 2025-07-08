@@ -11,18 +11,18 @@
       </div>
 
       <!-- Menu (só aparece a partir de md) -->
-      <ul class="hidden md:flex md:gap-4">
+      <ul class="hidden md:flex md:gap-12">
         <li>
-          <a href="#" class="transition hover:text-green-700 hover:scale-105">Sobre</a>
+          <a href="#sobre" class="transition hover:text-green-700 hover:scale-105">Sobre</a>
         </li>
         <li>
-          <a href="#" class="transition hover:text-green-700 hover:scale-105">Atuação</a>
+          <a href="#heroSection" class="transition hover:text-green-700 hover:scale-105">Atuação</a>
         </li>
         <li>
-          <a href="#" class="transition hover:text-green-700 hover:scale-105">Sustentabilidade</a>
+          <a href="#sustentabilidade" class="transition hover:text-green-700 hover:scale-105">Sustentabilidade</a>
         </li>
         <li>
-          <a href="#" class="transition hover:text-green-700 hover:scale-105">Contato</a>
+          <a href="#contato" class="transition hover:text-green-700 hover:scale-105">Contato</a>
         </li>
       </ul>
 
