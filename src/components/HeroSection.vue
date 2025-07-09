@@ -1,7 +1,7 @@
 <template>
-  <section class="relative z-0 h-[805px]" id="heroSection">
+  <section class="relative z-0 md:h-[900px] h-[805px]" id="heroSection">
     <video
-      class="w-full h-[740px] md:h-[680px] xl:h-[805px] object-cover"
+      class="w-full h-[740px] md:h-[900px] xl:h-[805px] object-cover"
       muted
       loop
       playsinline
@@ -11,7 +11,7 @@
     ></video>
 
     <div
-      class="absolute inset-0 flex flex-col items-center justify-center md:justify-start md:pt-44 xl:pt-[165px]"
+      class="absolute inset-0 flex flex-col items-center justify-center md:justify-start md:pt-[200px] xl:pt-[165px]"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"
@@ -26,7 +26,7 @@
       </div>
 
       <div>
-        <h1 class="text-4xl md:text-8xl text-white font-light text-center">
+        <h1 class="text-4xl md:text-7xl text-white font-light text-center">
           Unindo tradição no campo <br />
           <span class="text-yellow-600 font-normal">e gestão moderna</span>
         </h1>

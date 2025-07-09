@@ -21,28 +21,28 @@
         <li>
           <a
             @click="$scrollTo('#sobre', 800)"
-            class="transition hover:text-green-700 hover:scale-105"
+            class="transition hover:text-green-700 hover:scale-105 text-neutral-600"
             >Sobre</a
           >
         </li>
         <li>
           <a
             @click="$scrollTo('#atuacao', 800)"
-            class="transition hover:text-green-700 hover:scale-105"
+            class="transition hover:text-green-700 hover:scale-105 text-neutral-600"
             >Atuação</a
           >
         </li>
         <li>
           <a
             @click="$scrollTo('#sustentabilidade', 800)"
-            class="transition hover:text-green-700 hover:scale-105"
+            class="transition hover:text-green-700 hover:scale-105 text-neutral-600"
             >Sustentabilidade</a
           >
         </li>
         <li>
           <a
             @click="$scrollTo('#contato', 800)"
-            class="transition hover:text-green-700 hover:scale-105"
+            class="transition hover:text-green-700 hover:scale-105 text-neutral-600"
             >Contato</a
           >
         </li>
