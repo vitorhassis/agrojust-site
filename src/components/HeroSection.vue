@@ -28,7 +28,7 @@
     <div class="absolute inset-0 bg-black/30 z-10"></div>
 
     <div
-      class="absolute inset-0 flex flex-col items-center justify-start pt-[220px] md:pt-[240px] xl:pt-[240px] z-20"
+      class="absolute inset-0 flex flex-col items-center justify-start pt-[190px] md:pt-[240px] xl:pt-[240px] z-20"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"
@@ -73,26 +73,27 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-const imagens = [
-  "/src/assets/campo.png",
-  "/src/assets/bois1.png",
-  "/src/assets/bois2.png",
-  "/src/assets/grama.png",
-];
+import campo from "@/assets/campo.png"
+import bois1 from "@/assets/bois1.png"
+import bois2 from "@/assets/bois2.png"
+import grama from "@/assets/grama.png"
 
-const currentIndex = ref(0);
+const imagens = [campo, bois1, bois2, grama]
+
+const currentIndex = ref(0)
 
 onMounted(() => {
   imagens.forEach((src) => {
-    const img = new Image();
-    img.src = src;
-  });
+    const img = new Image()
+    img.src = src
+  })
 
   setInterval(() => {
-    currentIndex.value = (currentIndex.value + 1) % imagens.length;
-  }, 4000);
-});
+    currentIndex.value = (currentIndex.value + 1) % imagens.length
+  }, 4000)
+})
 </script>
+
 
 <style scoped>
 video::-webkit-media-controls-start-playback-button {
