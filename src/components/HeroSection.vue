@@ -11,7 +11,7 @@
     ></video>
 
     <div
-      class="absolute inset-0 flex flex-col items-center justify-center md:justify-start md:pt-[200px] xl:pt-[165px]"
+      class="absolute inset-0 flex flex-col items-center justify-start pt-[190px] md:pt-[240px] xl:pt-[190px]"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"
@@ -26,7 +26,7 @@
       </div>
 
       <div>
-        <h1 class="text-4xl md:text-7xl text-white font-light text-center">
+        <h1 class="text-4xl md:text-6xl text-white font-light text-center">
           Unindo tradição no campo <br />
           <span class="text-yellow-600 font-normal">e gestão moderna</span>
         </h1>
@@ -35,7 +35,7 @@
         </p>
       </div>
 
-      <div class="mt-14 flex flex-col gap-3 sm:flex-col">
+      <div class="mt-6 md:mt-14 flex flex-col gap-3 sm:flex-col">
         <button
           @click="$scrollTo('#sobre', 800)"
           class="rounded-full px-10 py-2 text-white bg-emerald-600 transform duration-200 hover:bg-green-900 hover:scale-105"
