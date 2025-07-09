@@ -1,5 +1,8 @@
 <template>
-  <div class="flex flex-col items-center justify-center bg-[#d9eac540] pt-20" id="sobre">
+  <div
+    class="flex flex-col items-center justify-center bg-[#d9eac540] pt-20"
+    id="sobre"
+  >
     <span
       class="border-emerald-200 rounded-full px-3 py-1.5 bg-emerald-600 text-white mb-4 font-medium shadow-lg"
       data-aos="fade-up"
