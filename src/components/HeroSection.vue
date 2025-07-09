@@ -2,10 +2,10 @@
   <section class="relative z-0 md:h-[900px] h-[805px]" id="heroSection">
     <video
       class="w-full h-[740px] md:h-[900px] xl:h-[805px] object-cover"
-      muted
-      loop
       playsinline
+      muted
       autoplay
+      loop
       src="/src/assets/videoHeroSection.mp4"
       type="video/mp4"
     ></video>
@@ -52,3 +52,10 @@
     </div>
   </section>
 </template>
+
+<style scoped>
+video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+</style>
