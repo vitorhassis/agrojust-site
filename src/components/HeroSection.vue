@@ -1,7 +1,7 @@
 <template>
   <section class="relative z-0 md:h-[900px] h-[805px]" id="heroSection">
     <video
-      class="w-full h-[740px] md:h-[900px] xl:h-[805px] object-cover"
+      class="absolute inset-0 w-full h-full object-cover hidden md:block"
       playsinline
       muted
       autoplay
@@ -10,8 +10,25 @@
       type="video/mp4"
     ></video>
 
+    <div class="w-full h-[805px] relative md:hidden bg-black">
+      <div class="w-full h-full relative">
+        <img
+          v-for="(img, index) in imagens"
+          :key="index"
+          :src="img"
+          class="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000"
+          :class="{
+            'opacity-100': currentIndex === index,
+            'opacity-0': currentIndex !== index,
+          }"
+        />
+      </div>
+    </div>
+
+    <div class="absolute inset-0 bg-black/30 z-10"></div>
+
     <div
-      class="absolute inset-0 flex flex-col items-center justify-start pt-[190px] md:pt-[240px] xl:pt-[190px]"
+      class="absolute inset-0 flex flex-col items-center justify-start pt-[220px] md:pt-[240px] xl:pt-[240px] z-20"
       data-aos="fade-zoom-in"
       data-aos-easing="ease-in-back"
       data-aos-delay="300"
@@ -20,9 +37,9 @@
       <div
         class="mb-10 border border-white rounded-full px-4 py-1.5 bg-white/10 backdrop-blur-sm hover:bg-white/25 transform duration-200"
       >
-        <span class="text-xs text-white font-medium flex items-center"
-          >Agronegócio sustentável desde 2008</span
-        >
+        <span class="text-xs text-white font-medium flex items-center">
+          Agronegócio sustentável desde 2008
+        </span>
       </div>
 
       <div>
@@ -52,6 +69,30 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { ref, onMounted } from "vue";
+
+const imagens = [
+  "/src/assets/campo.png",
+  "/src/assets/bois1.png",
+  "/src/assets/bois2.png",
+  "/src/assets/grama.png",
+];
+
+const currentIndex = ref(0);
+
+onMounted(() => {
+  imagens.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+
+  setInterval(() => {
+    currentIndex.value = (currentIndex.value + 1) % imagens.length;
+  }, 4000);
+});
+</script>
 
 <style scoped>
 video::-webkit-media-controls-start-playback-button {
