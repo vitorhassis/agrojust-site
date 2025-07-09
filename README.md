@@ -4,7 +4,7 @@
 
 Este é um projeto de site institucional desenvolvido para a **Leo Just - AgroJust**, com foco em apresentar os valores da empresa, sua atuação no agronegócio e o compromisso com a sustentabilidade. O site é totalmente responsivo, visualmente moderno e otimizado para uma experiência clara e objetiva.  
 
-🔗 **Acesse o site:** [agrojust.vercel.app](https://agrojust.vercel.app) 
+🔗 **Acesse o site:** [agrojust.vercel.app](https://site-leo-justt.vercel.app/) 
 
 ---
 
