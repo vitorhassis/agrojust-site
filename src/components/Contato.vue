@@ -25,7 +25,10 @@
         <button
           class="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-500 hover:to-amber-700 text-neutral-900 font-light w-[300px] h-[40px] rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 duration-300"
         >
-          Fale com nossa equipe →
+          <a
+            href="https://wa.me/554491840200?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços"
+            >Fale com nossa equipe →</a
+          >
         </button>
       </div>
 
@@ -48,7 +51,7 @@
               class="w-[50px] h-[50px] transform hover:scale-125 duration-300"
             />
             <p class="text-neutral-300 font-normal mt-3 text-lg">
-              (44) 9999-9999
+              +55 44 9180-4673 | +55 44 9184-0200
             </p>
           </div>
           <div class="mt-[15px] flex items-start gap-4">
@@ -58,7 +61,7 @@
               class="w-[50px] h-[50px] transform hover:scale-125 duration-300"
             />
             <p class="text-neutral-300 font-normal mt-3 text-lg">
-              contato@agrojust.com.br
+              financeiro@agrojust.com.br
             </p>
           </div>
         </div>

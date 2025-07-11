@@ -48,11 +48,10 @@
         </li>
       </ul>
 
-      <!-- Botão "Fale Conosco" (visível em todas as telas) -->
       <button
         class="py-2 text-sm md:text-base bg-emerald-600 rounded-full px-4 md:px-5 md:py-1 text-white hover:bg-green-900 transition duration-300 ease-in-out"
       >
-        Fale Conosco
+        <a @click="$scrollTo('#contato', 800)">Fale Conosco</a>
       </button>
     </nav>
   </header>

@@ -73,27 +73,26 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-import campo from "@/assets/campo.png"
-import bois1 from "@/assets/bois1.png"
-import bois2 from "@/assets/bois2.png"
-import grama from "@/assets/grama.png"
+import campo from "@/assets/campo.png";
+import bois1 from "@/assets/bois1.png";
+import bois2 from "@/assets/bois2.png";
+import grama from "@/assets/grama.png";
 
-const imagens = [campo, bois1, bois2, grama]
+const imagens = [campo, bois1, bois2, grama];
 
-const currentIndex = ref(0)
+const currentIndex = ref(0);
 
 onMounted(() => {
   imagens.forEach((src) => {
-    const img = new Image()
-    img.src = src
-  })
+    const img = new Image();
+    img.src = src;
+  });
 
   setInterval(() => {
-    currentIndex.value = (currentIndex.value + 1) % imagens.length
-  }, 4000)
-})
+    currentIndex.value = (currentIndex.value + 1) % imagens.length;
+  }, 4000);
+});
 </script>
-
 
 <style scoped>
 video::-webkit-media-controls-start-playback-button {

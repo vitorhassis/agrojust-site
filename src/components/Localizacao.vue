@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center bg-[#ffffffab] pt-20 px-4 sm:px-6 lg:px-20 pb-[60px]"
+    class="flex flex-col items-center justify-center bg-[#ffffffab] pt-20 px-4 sm:px-6 lg:px-20 pb-[80px]"
     id="localizacao"
   >
     <!-- botão, h1 e p -->
@@ -38,15 +38,15 @@
     </div>
 
     <!-- container imagem + blocos -->
-    <div class="flex flex-col xl:flex-row gap-16">
+    <div class="flex flex-col xl:flex-row gap-[120px]">
       <!-- imagem -->
       <div class="relative w-full flex justify-center">
         <div
-          class="absolute -inset-4 bg-gradient-to-r from-amber-700/30 to-emerald-700/30 rounded-2xl blur-2xl z-0"
+          class="absolute w-[400px] h-full bg-gradient-to-r from-amber-700/70 to-emerald-700/70 rounded-2xl blur-[32px] z-0 top-0"
         ></div>
         <img
           src="/src/assets/escritorio.jpeg"
-          class="relative rounded-2xl shadow-2xl w-[600px] h-[600px]"
+          class="relative rounded-2xl shadow-2xl w-[400px] h-[585px]"
           alt="imagem-escritorio"
           data-aos="fade-right"
           data-aos-duration="2000"
@@ -121,7 +121,11 @@
           <button
             class="bg-white text-amber-600 text-lg font-semibold rounded-full shadow hover:shadow-md transition-all duration-300 flex items-center justify-center gap-2 whitespace-nowrap w-[180px] sm:w-[200px] h-[40px] transform hover:scale-105"
           >
-            Agendar Visita <span class="ml-2 text-xl leading-none">→</span>
+            <a
+              href="https://wa.me/554491804673?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços"
+            >
+              Agendar Visita<span class="ml-2 text-xl leading-none">→</span></a
+            >
           </button>
         </div>
       </div>
